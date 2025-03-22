@@ -19,20 +19,20 @@ class DatabaseSeeder extends Seeder
 
         User::factory()->create([
             'name' => 'Maestro Steven',
-            'email' => 'admin1@stcamille.com',
-            'password' => Hash::make('paroisse'),
+            'email' => '######',
+            'password' => Hash::make('gffedf'),
         ]);
 
         User::factory()->create([
             'name' => 'Relwendé Jacob',
-            'email' => 'relwen@stcamille.com',
-            'password' => Hash::make('paroisse'),
+            'email' => '######',
+            'password' => Hash::make('ddddd'),
         ]);
 
         User::factory()->create([
             'name' => 'Superviseur',
-            'email' => 'super@stcamille.com',
-            'password' => Hash::make('paroisse'),
+            'email' => '####',
+            'password' => Hash::make('dddd'),
         ]);
 
 
